@@ -3,10 +3,13 @@
   "version": "0.2.0",
   "main": "index.js",
   "bin": "index.js",
-  "engines" : {
-    "node" : ">=4.0"
+  "engines": {
+    "node": ">=4.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "commander": "^2.9.0"
+  },
   "devDependencies": {
     "ghooks": "^1.0.1",
     "validate-commit-msg": "^1.0.0"
