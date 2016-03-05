@@ -21,7 +21,7 @@ var msgTplFile = !program.template ? './default.tpl' : program.template;
 try {
   fs.accessSync(msgTplFile, fs.R_OK)
 } catch (err) {
-  console.error(consoleError('Invalid path for template file: ' + msgTplFile));
+  console.error(consoleError('Invalid path: ' + msgTplFile + '\n\r' + err.toString()));
   process.exit(1);
 }
 
