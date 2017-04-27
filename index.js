@@ -12,7 +12,7 @@ var commitMsgFile = process.argv[2] || './.git/COMMIT_EDITMSG';
 var isNewCommit = (process.argv[3] === 'undefined');
 
 var maxCharsLine = '#⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴⎴';
-var scissorsLine = '# ---------- Message Formatting Convention ----------';
+var scissorsLine = '# ------------------------ >8 ------------------------';
 
 program
   .option('-t, --template [file path]', 'Set file location of template for git commit message', '')
